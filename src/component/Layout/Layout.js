@@ -9,7 +9,7 @@ const Layout = () =>{
 <ul className={classes.Layout}>
  <div>
      <Toolbar openDrawer={()=>setDrawerOpen(true)}/>
-     <Drawer open={drawerOpen} setCloseFolder={()=>setDrawerOpen(false)}/> 
+     <Drawer open={drawerOpen} closeDrawer={()=>setDrawerOpen(false)}/> 
      </div>   
 </ul>
     )

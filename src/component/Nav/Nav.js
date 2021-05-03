@@ -1,8 +1,11 @@
-import classes from "./Nav.module.css"
-
-const Nav = () =>{
+import classes from "./Logo.module.css"
+// import logo from "../../imegs/with-plate.png"
+const Logo =() =>{
     return(
-<ul className={classes.Nav}>Nav</ul>
+        <div className={classes.Logo}>
+            {/* <img src={logo} alt={"Dont's"} /> */}
+            <div>Donut's</div>
+        </div>
     )
 }
-export  default Nav
+export default Logo;
