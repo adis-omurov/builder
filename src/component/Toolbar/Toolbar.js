@@ -1,13 +1,17 @@
-const { default: Logo } = require("../Logo/Logo")
-const { default: Nav } = require("../Nav/Nav")
+import DrawerOpen from "../Drawer/OpenDrawer/OpenDrawer"
+import Logo from "../Logo/Logo"
+import Nav from "../Nav/Nav"
+import classes from "./Toolbar.module.css"
 
-const Toolbar=()=>{
-    return(
-        <div>
-<Logo/>
-<nav>
-    <Nav/>
-</nav>
+const Toolbar = ({openDrawer}) => {
+    return (
+        <div className={classes.Toolbar}>
+            <Logo />
+            <nav>
+                <Nav />
+            </nav>
+        <DrawerOpen  click={openDrawer}/>
+       
         </div>
     )
 }
