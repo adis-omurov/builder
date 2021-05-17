@@ -4,7 +4,7 @@ const Nav =() =>{
     return(
         <div className={classes.Logo}>
             {/* <img src={logo} alt={"Dont's"} /> */}
-            <div>Donut's</div>
+            <div>ANT'S SHOP</div>
         </div>
     )
 }
