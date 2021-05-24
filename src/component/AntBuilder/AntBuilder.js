@@ -34,7 +34,7 @@ const AntBuilder = ({ history }) => {
 
     function loadDefaults() {
         axios
-            .get('https://work-1-b6be6-default-rtdb.firebaseio.com/defauld.json')
+            .get('https://builder-660e7-default-rtdb.firebaseio.com/defauld.json')
             .then(response => {
                 setPrice(response.data.price);
 
@@ -57,7 +57,7 @@ const AntBuilder = ({ history }) => {
         setOrdering(false);
     }
     function finishOrdering() {
-        axios.post('https://work-1-b6be6-default-rtdb.firebaseio.com/orders.json', {
+        axios.post('https://builder-660e7-default-rtdb.firebaseio.com/orders.json', {
             ingredients: ingredients,
             price: price,
             address: "1234 Jusaeva str",
