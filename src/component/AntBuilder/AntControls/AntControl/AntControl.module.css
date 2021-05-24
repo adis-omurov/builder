@@ -1,0 +1,12 @@
+.DonutControls {
+    flex: 0 0 250px;
+    border-radius: 1rem;
+    padding: 1rem;
+    /* background: linear-gradient(170deg, #1180ac -17.33%, rgba(46, 121, 175, 0.753) 75.91%), */
+    background-color: blue;
+    color: white;
+    text-align: center;
+    width: 450;
+    height: 550px;
+     
+    }
