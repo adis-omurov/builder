@@ -6,7 +6,7 @@
 
 import classes from "./AntControl.module.css";
 import Button from "../../../UI/Button/Button";
-import AntIngredient from "../../../AntIngredient/AntIngredient";
+import AntIngredient from "../../AntIngredient/AntIngredient";
 
 const AntControl = ({ type,  count }) => {
     const dispatch = useDispatch()

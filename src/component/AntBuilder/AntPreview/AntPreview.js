@@ -1,6 +1,6 @@
 import classes from "./AntPreview.module.css";
 import sand from '../../../Imges/sand.png'
-import AntIngredient from "../../AntIngredient/AntIngredient";
+import AntIngredient from "../AntIngredient/AntIngredient";
 const AntPreview = ({ingredients, price}) => {
 const result = []
 
