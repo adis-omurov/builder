@@ -5,7 +5,7 @@ import { auth, start } from "../../store/action/auth";
 import { Redirect, useLocation } from "react-router";
 
 
-export default  () => {
+export default function Auth ()  {
   const dispatch = useDispatch();
   const { loading, error, token } = useSelector(state => state.auth);
   const location = useLocation();
