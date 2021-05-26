@@ -1,5 +1,5 @@
 import Button from "../../UI/Button/Button";
-import classes from "./AntControl.module.css";
+import classes from "./AntControls.module.css";
 import AntControl from "./AntControl/AntControl";
 
 const AntControls = ({ingredients, startOrdering }) => {
