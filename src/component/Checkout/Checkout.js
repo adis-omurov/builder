@@ -3,6 +3,7 @@ import { useSelector } from "react-redux";
 import AntPreview from "../AntBuilder/AntPreview/AntPreview";
 import withAxios from "../withAxios";
 import CheckoutForm from "./CheckoutForm/CheckoutForm";
+import classes from "./Checkout.module.css";
 
 const Checkout = ({ history }) => {
     const {token, id} = useSelector(state => state.auth);
