@@ -1,4 +1,4 @@
-import classes from "./OrderSummary.module.css";
+import classes from "./OrderSummarry.module.css";
 
 
 const OrderSummary = ({ ingredients, price }) => {
