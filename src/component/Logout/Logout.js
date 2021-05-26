@@ -11,5 +11,4 @@ export default function Logout({ history }) {
   }, 
   [dispatch, history]);
 }
-
-  return null;
+  return null
