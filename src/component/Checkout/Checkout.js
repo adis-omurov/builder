@@ -1,4 +1,5 @@
-import axios from "axios";
+import axios from "../../../src/axios";
+import { useSelector } from "react-redux";
 import AntPreview from "../AntBuilder/AntPreview/AntPreview";
 import withAxios from "../withAxios";
 import CheckoutForm from "./CheckoutForm/CheckoutForm";
