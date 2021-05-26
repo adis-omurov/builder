@@ -3,14 +3,15 @@ import { useDispatch, useSelector } from 'react-redux';
 import { Redirect, Route, Switch } from 'react-router-dom';
 import './App.css';
 import AntBuilder from './component/AntBuilder/AntBuilder';
-import OrderSummary from './component/AntBuilder/OrderSummarry/OrderSummarry';
+
 import Auth from './component/Auth/Auth';
 import Checkout from './component/Checkout/Checkout';
 import Layout from './component/Layout/Layout';
 import Logout from './component/Logout/Logout';
-import Order from './component/Orders/Order/Order';
+
 import Orders from './component/Orders/Orders';
-import auth from './store/reducers/auth';
+import { restore } from './store/action/auth';
+
 
 const App = () =>{
   const dispatch = useDispatch();
@@ -20,7 +21,7 @@ const App = () =>{
 
   let routesOutput = (
     <Switch>
-      <Route path="/" exact component={DonutBuilder} />
+      <Route path="/" exact component={AntBuilder} />
       <Route path="/auth" component={Auth} />
       <Redirect to="/" />
     </Switch>
