@@ -1,5 +1,5 @@
 import axios from "../../axios";
-import { ADD_INGREDIENT, REMOVE_INGREDIENT, SET_INGREDIENTS } from "./types";
+import { ADD_INGREDIENT, REMOVE_INGREDIENT, SET_INGREDIENTS } from "./type";
 
 export const add = (ingredient) => ({
   type: ADD_INGREDIENT,

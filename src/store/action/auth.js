@@ -1,5 +1,5 @@
 import { AUTH_SUCCESS, AUTH_FAIL, AUTH_START, AUTH_LOGOUT } from "./type";
-import axios from "axios";
+import axios from "../../axios";
 
 export const start = (dispatch) => dispatch({
   type: AUTH_START
