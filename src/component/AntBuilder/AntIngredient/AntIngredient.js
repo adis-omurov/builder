@@ -1,7 +1,7 @@
 import classes from './AntIngredient.module.css'
 import React from 'react'
 import logoAnt from '../../../Imges/LogoAnt.png'
-import logoAnt2 from '../../../Imges/logoAnt2.png'
+import logoAnt2 from '../../../Imges/LogoAnt2.png'
 // import brown from '../../../img/brown.svg'
 // import black from '../../../img/black.svg'
 // import pink from '../../../img/pink.svg'
