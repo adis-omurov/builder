@@ -3,7 +3,7 @@ import { useDispatch, useSelector } from "react-redux";
 import Button from "../UI/Button/Button";
 import { auth, start } from "../../store/action/auth";
 import { Redirect, useLocation } from "react-router";
-import Loading from "../../Loading/Loading";
+
 
 export default  () => {
   const dispatch = useDispatch();
@@ -21,7 +21,7 @@ export default  () => {
     event.preventDefault();
   }
 
-  let formOutput = <Loading />;
+  let formOutput ="Loading";
   if (!loading) {
     formOutput = (
       <form onSubmit={formSubmitted} className={classes.form}>
