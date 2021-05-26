@@ -1,7 +1,3 @@
-// import Button from "../../UI/Button/Button";
-// import DonutControl from "./AntControl/AntControl";
-// import classes from "./AntControls.module.css";
-
 import Button from "../../UI/Button/Button";
 import classes from "./AntControl.module.css";
 import AntControl from "./AntControl/AntControl";
