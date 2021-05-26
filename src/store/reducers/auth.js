@@ -28,5 +28,13 @@ export default function auth(state = initialState, action) {
       newState.error = action.error;
       newState.loading = false;
       return newState;
-    }
+
+    case types.AUTH_LOGOUT:
+      newState.token = null;
+      newState.id = null;
+      return newState;
+
+    default:
+      return newState;
+  }
 }
