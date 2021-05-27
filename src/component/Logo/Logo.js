@@ -1,8 +1,11 @@
-import classes from "./Logo.module.css"
-import logo from "../../Imges/LogoAnt.png"
+import classes from "Logo.module.css";
+import logo from '../../Imges/LogoAnt.png'
 const Logo = () => {
-    return (
-<ul className={classes.Logo}><img src={logo} alt={"logo"}/></ul>
-    )
+  return (
+    <div className={classes.Logo}>
+        <img src={logo} alt={"logo"}/>
+    </div>
+  );
 }
-export default Logo
+
+export default Logo; 
