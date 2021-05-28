@@ -1,3 +1,4 @@
+import { logout } from "../../store/action/auth";
 import classes from "./Logo.module.css";
 // import logo from "../../Imges/LogoAnt";
 const Logo = () => {
